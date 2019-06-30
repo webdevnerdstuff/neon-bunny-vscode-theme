@@ -1,14 +1,14 @@
-# [Neon Bunny](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
-
-[GitHub repository](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme)
+# Neon Bunny
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/webdevnerdstuff.neon-bunny.svg)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
 
-# CHANGELOG
+[GitHub repository](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme)
+
+# Change Log
 
 [CHANGELOG.MD](CHANGELOG.md)
 
-## Tweaks &  theming
+## Tweaks & theming
 
 [more info](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme)
 
