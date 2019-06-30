@@ -1,6 +1,6 @@
 {
   "name": "neon-bunny",
-  "displayName": "Neon Bunny",
+  "displayName": "Neon Bunny Theme",
   "description": "Neon Bunny is a theme even a bunny could love",
   "version": "0.0.1",
   "publisher": "webdevnerdstuff",
@@ -25,7 +25,7 @@
   ],
   "contributes": {
     "themes": [{
-      "label": "Neon Bunny",
+      "label": "Neon Bunny Theme",
       "uiTheme": "vs-dark",
       "path": "./themes/Neon Bunny-color-theme.json"
     }]
