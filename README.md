@@ -1,6 +1,8 @@
-# [Neon Bunny](#)
+# [Neon Bunny](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
 
 [GitHub repository](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme)
+
+[![Version](https://vsmarketplacebadge.apphb.com/version/webdevnerdstuff.neon-bunny.svg)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
 
 # CHANGELOG
 
