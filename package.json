@@ -42,6 +42,6 @@
     "theme": "dark"
   },
   "extensionDependencies": [
-    "wholroyd.jinja"
+    "batisteo.vscode-django"
   ]
 }
