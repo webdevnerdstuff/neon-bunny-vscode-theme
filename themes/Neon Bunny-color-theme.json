@@ -397,17 +397,6 @@
       }
     },
     {
-      "name": "VUE Punctuation Definition Template Expression",
-      "scope": [
-        "source.vue punctuation.definition.template-expression.begin.js",
-        "source.vue punctuation.definition.template-expression.end.js"
-      ],
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#ffffff"
-      }
-    },
-    {
       "name": "VUE Meta Import Block Variable Other Read/Write Alias",
       "scope": [
         "source.vue source.js meta.import.js meta.block.js variable.other.readwrite.alias.js"
@@ -1068,6 +1057,17 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FF5370"
+      }
+    },
+    {
+      "name": "JS Punctuation Definition Template Expression",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ffffff"
       }
     },
     // ----------------------------------------------------------------------------------- JSON //
