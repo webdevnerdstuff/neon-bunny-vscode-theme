@@ -1366,7 +1366,28 @@
     {
       "name": "DJANGO Keyword Control",
       "scope": [
-        "text.html.django keyword.control.django"
+        "text.html.django keyword.control.django",
+        "text.html.django keyword.control.tag-name.django",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#0b93ff"
+      }
+    },
+    {
+      "name": "DJANGO Constant Other Tag Name",
+      "scope": [
+        "text.html.django constant.other.tag.name.django",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#0b93ff"
+      }
+    },
+    {
+      "name": "DJANGO Keyword Operator",
+      "scope": [
+        "text.html.django keyword.operator.assignment.django",
       ],
       "settings": {
         "fontStyle": "",
@@ -1376,7 +1397,8 @@
     {
       "name": "DJANGO Delimiter",
       "scope": [
-        "text.html.django entity.other.django.delimiter.tag"
+        "text.html.django entity.other.django.delimiter.tag",
+        "text.html.django entity.tag.tagbraces.django"
       ],
       "settings": {
         "fontStyle": "",
@@ -1386,16 +1408,63 @@
     {
       "name": "DJANGO Variable Delimiter",
       "scope": [
-        "text.html.django meta.scope.django.variable entity.other.django.delimiter.variable"
+        "text.html.django meta.scope.django.variable entity.other.django.delimiter.variable",
+        "text.html.django storage.type.variable.django entity.tag.tagbraces.django"
       ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#ff07a2"
       }
-    }, {
+    },
+    {
       "name": "DJANGO Variable Other",
       "scope": [
-        "text.html.django meta.scope.django.tag variable.other.django"
+        "text.html.django meta.scope.django.tag variable.other.django",
+        "text.html.django string.unquoted.tag-string.django",
+        "text.html.django storage.type.templatetag.django constant.other.contrib.django",
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#2bb71d"
+      }
+    },
+    {
+      "name": "DJANGO String",
+      "scope": [
+        "text.html.django string.quoted.single.django",
+        "text.html.django string.quoted.single.html",
+        "text.html.django string.quoted.double.django",
+        "text.html.django string.quoted.double.html",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ffb46a"
+      }
+    },
+    {
+      "name": "DJANGO Constant Other Filter",
+      "scope": [
+        "text.html.django constant.other.filter.django",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "DJANGO String Unquoted",
+      "scope": [
+        "text.html.django storage.type.variable.django string.unquoted.tag-string.django",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "DJANGO String Unquoted Variable Tag String",
+      "scope": [
+        "text.html.django string.quoted.double.html storage.type.variable.django string.unquoted.tag-string.django"
       ],
       "settings": {
         "fontStyle": "italic",
