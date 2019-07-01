@@ -2,7 +2,7 @@
   "name": "neon-bunny",
   "displayName": "Neon Bunny Theme",
   "description": "Neon Bunny is a theme even a bunny could love",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "webdevnerdstuff",
   "license": "SEE LICENSE IN LICENSE.md",
   "keywords": [
@@ -18,8 +18,12 @@
     "type": "git",
     "url": "https://github.com/webdevnerdstuff/neon-bunny-vscode-theme"
   },
+  "homepage": "https://github.com/webdevnerdstuff/neon-bunny-vscode-theme",
+  "bugs": {
+    "url": "https://github.com/webdevnerdstuff/neon-bunny-vscode-theme/issues"
+  },
   "engines": {
-    "vscode": "^1.35.0"
+    "vscode": "^1.35.1"
   },
   "categories": [
     "Themes"
