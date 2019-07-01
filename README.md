@@ -1,6 +1,6 @@
 # Neon Bunny
 
-![Neon Bunny](images/icon.jpg)
+![Neon Bunny](/images/icon.jpg)
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/webdevnerdstuff.neon-bunny.svg)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/webdevnerdstuff.neon-bunny.svg)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
