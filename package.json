@@ -2,7 +2,7 @@
   "name": "neon-bunny",
   "displayName": "Neon Bunny Theme",
   "description": "Neon Bunny is a theme even a bunny could love",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "webdevnerdstuff",
   "keywords": [
     "Neon Bunny Theme",
@@ -29,5 +29,9 @@
       "uiTheme": "vs-dark",
       "path": "./themes/Neon Bunny-color-theme.json"
     }]
+  },
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
   }
 }
