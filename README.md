@@ -4,11 +4,11 @@
 
 [GitHub repository](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme)
 
-# Change Log
+## Change Log
 
 [CHANGELOG.MD](CHANGELOG.md)
 
-# License
+## License
 
 [CHANGELOG.MD](LICENSE.md)
 
