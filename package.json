@@ -4,6 +4,7 @@
   "description": "Neon Bunny is a theme even a bunny could love",
   "version": "0.0.3",
   "publisher": "webdevnerdstuff",
+  "license": "SEE LICENSE IN LICENSE.md",
   "keywords": [
     "Neon Bunny Theme",
     "Neon Bunny",
@@ -30,6 +31,7 @@
       "path": "./themes/Neon Bunny-color-theme.json"
     }]
   },
+  "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#000000",
     "theme": "dark"

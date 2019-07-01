@@ -8,6 +8,10 @@
 
 [CHANGELOG.MD](CHANGELOG.md)
 
+# License
+
+[CHANGELOG.MD](LICENSE.md)
+
 ## Tweaks & theming
 
 [more info](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme)
