@@ -1367,7 +1367,7 @@
       "name": "DJANGO Keyword Control",
       "scope": [
         "text.html.django keyword.control.django",
-        "text.html.django keyword.control.tag-name.django",
+        "text.html.django keyword.control.tag-name.django"
       ],
       "settings": {
         "fontStyle": "",
