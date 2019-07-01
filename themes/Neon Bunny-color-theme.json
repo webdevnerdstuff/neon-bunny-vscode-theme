@@ -2,16 +2,20 @@
   "name": "Neon Bunny",
   "type": "dark",
   "colors": {
+    "activityBar.background": "#111111",
+    "activityBarBadge.background": "#007acc",
     "editor.background": "#000000",
     "editor.foreground": "#ffffff",
-    "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb",
+    "editorGroupHeader.tabsBackground": "#222222",
     "editorIndentGuide.activeBackground": "#555555",
     "editorIndentGuide.background": "#2D2D2D",
+    "sideBar.background": "#222222",
+    "sideBarTitle.foreground": "#bbbbbb",
     "statusBar.background": "#21252b",
     "statusBar.foreground": "#9da5b4",
     "tab.activeBackground": "#555555",
-    "tab.inactiveBackground": "#21252b"
+    "tab.hoverBackground": "#555555",
+    "tab.inactiveBackground": "#333333"
   },
   "tokenColors": [
     // ----------------------------------------------------------------------------------- GENERAL //
@@ -53,7 +57,7 @@
         "invalid.illegal"
       ],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#ff5370"
       }
     },
     {
@@ -65,7 +69,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#2492FF"
+        "foreground": "#2492ff"
       }
     },
     // {
@@ -99,7 +103,8 @@
       "scope": [
         "entity.name.tag",
         "meta.tag.sgml",
-        "markup.deleted.git_gutter"
+        "markup.deleted.git_gutter",
+        "invalid.illegal.unrecognized-tag"
       ],
       "settings": {
         "foreground": "#2492ff"
@@ -237,7 +242,15 @@
         "foreground": "#C792EA"
       }
     },
-    // ----------------------------------------------------------------------------------- PYTHON //
+    {
+      "name": "Escape Characters",
+      "scope": [
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#ffffaa"
+      }
+    },
     // ----------------------------------------------------------------------------------- HTML //
     {
       "name": "HTML Punctuation Definition Tag",
@@ -314,7 +327,8 @@
         "constant.character.entity.named.euro.html",
         "constant.character.entity.named.reg.html",
         "constant.character.entity.named.copy.html",
-        "constant.character.entity.named.bull.html"
+        "constant.character.entity.named.bull.html",
+        "constant.character.entity.numeric.decimal.html"
       ],
       "settings": {
         "fontStyle": "",
@@ -438,6 +452,7 @@
       "name": "PHP Variable Other Global",
       "scope": [
         "text.html.php variable.other.global.php",
+        "text.html.php variable.other.global.safer.php"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -477,11 +492,23 @@
       }
     },
     {
-      "name": "PHP Punctuation Seperator Inhertitance",
+      "name": "PHP Punctuation Seperator",
       "scope": [
-        "punctuation.separator.inheritance.php"
+        "text.html.php punctuation.separator.inheritance.php"
       ],
       "settings": {
+        "fontStyle": "",
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "PHP Punctuation Seperator Delimiter",
+      "scope": [
+        "punctuation.definition.string.begin.php",
+        "punctuation.definition.string.end.php"
+      ],
+      "settings": {
+        "fontStyle": "",
         "foreground": "#ffffff"
       }
     },
@@ -663,7 +690,8 @@
       "name": "PHP Keyword Operator",
       "scope": [
         "text.html.php keyword.operator.ternary.php",
-        "text.html.php keyword.operator.key.php"
+        "text.html.php keyword.operator.key.php",
+        "text.html.php keyword.operator.logical.php"
       ],
       "settings": {
         "fontStyle": "",
@@ -692,16 +720,6 @@
       }
     },
     {
-      "name": "PHP Punctuation Seperator Delimiter",
-      "scope": [
-        "text.html.php punctuation.separator.delimiter.php"
-      ],
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#ffffff"
-      }
-    },
-    {
       "name": "PHP Array Support Function Construct",
       "scope": [
         "text.html.php meta.array.php support.function.construct.php"
@@ -709,6 +727,50 @@
       "settings": {
         "fontStyle": "",
         "foreground": "#e8e8e8"
+      }
+    },
+    {
+      "name": "PHP Constant Language",
+      "scope": [
+        "text.html.php meta.embedded.block.php source.php constant.language.php",
+        "text.html.php meta.embedded.block.php source.php meta.function-call.php meta.array.php constant.language.php"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#0b93ff"
+      }
+    },
+    {
+      "name": "PHP Variable Other Puncuation Definition",
+      "scope": [
+        "text.html.php meta.embedded.block.php source.php meta.function-call.php variable.other.global.php punctuation.definition.variable.php",
+        "text.html.php meta.embedded.block.php source.php variable.other.global.php punctuation.definition.variable.php",
+        "text.html.php meta.embedded.block.php source.php variable.other.global.safer.php punctuation.definition.variable.php",
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff25d9"
+      }
+    },
+    {
+      "name": "PHP Comment Block PHPdoc",
+      "scope": [
+        "text.html.php comment.block.documentation.phpdoc.php keyword.other.phpdoc.php"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#3a771f"
+      }
+    },
+    {
+      "name": "PHP Variable Other Puncuation Definition",
+      "scope": [
+        "text.html.php meta.embedded.block.php source.php comment.block.documentation.phpdoc.php meta.other.type.phpdoc.php support.class.php",
+        "text.html.php meta.embedded.block.php source.php comment.block.documentation.phpdoc.php meta.other.type.phpdoc.php keyword.other.type.php"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#aaaaaa"
       }
     },
     // ----------------------------------------------------------------------------------- CSS & SCSS //
@@ -1108,12 +1170,247 @@
         "foreground": "#FF0C77"
       }
     },
+    // ----------------------------------------------------------------------------------- PYTHON //
+    {
+      "name": "PYTHON Comment",
+      "scope": [
+        "source.python string.quoted.docstring.multi.python"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#7f817e"
+      }
+    },
+    {
+      "name": "PYTHON Punctuation Definition Decorator",
+      "scope": [
+        "source.python string.quoted.double.block.python"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#7f817e"
+      }
+    },
+    {
+      "name": "PYTHON Keyword Control",
+      "scope": [
+        "source.python keyword.control.import.python",
+        "source.python keyword.control.flow.python",
+        "source.python keyword.control.import.from.python",
+        "source.python keyword.control.anchor.regexp"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#0b93ff"
+      }
+    },
+    {
+      "name": "PYTHON Keyword Operator Assignment",
+      "scope": [
+        "source.python keyword.operator.assignment.python"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ff6106"
+      }
+    },
+    {
+      "name": "PYTHON Source",
+      "scope": [
+        "source.python"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#2bb71d"
+      }
+    },
+    {
+      "name": "PYTHON Source",
+      "scope": [
+        "source.python meta.function.python storage.type.function.python"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#0b93ff"
+      }
+    },
+    {
+      "name": "PYTHON Keyword Control, Keyword Operator Assignment",
+      "scope": [
+        "source.python meta.function-call.python meta.function-call.arguments.python keyword.operator.assignment.python"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ff6106"
+      }
+    },
+    {
+      "name": "PYTHON Keyword Other",
+      "scope": [
+        "source.python keyword.other.python"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "PYTHON Meta Function Parameters",
+      "scope": [
+        "source.python meta.function.python meta.function.parameters.python"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#0b93ff"
+      }
+    },
+    {
+      "name": "PYTHON Regular Expressions",
+      "scope": [
+        "source.python entity.name.tag.named.group.regexp",
+        "source.python meta.structure.list.python meta.function-call.python meta.function-call.arguments.python string.quoted.single.single-line.raw-regex.python meta.group.regexp entity.name.section.group.regexp"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff1190"
+      }
+    },
+    {
+      "name": "PYTHON Regular Expressions",
+      "scope": [
+        "source.python meta.structure.list.python meta.function-call.python meta.function-call.arguments.python string.quoted.single.single-line.raw-regex.python meta.group.regexp"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "PYTHON Dictionary Value, Item Access",
+      "scope": [
+        "source.python meta.structure.dictionary.value.python",
+        "source.python meta.item-access.python",
+        "source.python meta.function-call.arguments.python",
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#2bb71d"
+      }
+    },
+    {
+      "name": "PYTHON Meta Class Entity Name",
+      "scope": [
+        "source.python meta.class.python entity.name.type.class.python",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "background": "#070e4a",
+        "foreground": "#0aff04"
+      }
+    },
+    {
+      "name": "PYTHON Meta Function Call",
+      "scope": [
+        "source.python meta.structure.dictionary.python meta.structure.dictionary.value.python meta.function-call.python",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ff92e4"
+      }
+    },
+    {
+      "name": "PYTHON Punctuation",
+      "scope": [
+        "source.python punctuation.definition.arguments.begin.python",
+        "source.python punctuation.definition.arguments.end.python",
+        "source.python punctuation.definition.dictionary.begin.python",
+        "source.python punctuation.definition.dictionary.end.python"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "PYTHON Support Function Builtin",
+      "scope": [
+        "source.python meta.function.decorator.python entity.name.function.decorator.python support.function.builtin.python",
+        "source.python meta.function.decorator.python entity.name.function.decorator.python"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ea03ff"
+      }
+    },
+    {
+      "name": "PYTHON Punctuation Definition Decorator",
+      "scope": [
+        "source.python meta.function.decorator.python entity.name.function.decorator.python punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#4e5aff"
+      }
+    },
+    {
+      "name": "PYTHON Punctuation Separator Dictionary",
+      "scope": [
+        "source.python punctuation.separator.valuepair.dictionary.python"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ffffff"
+      }
+    },
+    // ----------------------------------------------------------------------------------- DJANGO //
+    {
+      "name": "DJANGO Keyword Control",
+      "scope": [
+        "text.html.django keyword.control.django"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#0b93ff"
+      }
+    },
+    {
+      "name": "DJANGO Delimiter",
+      "scope": [
+        "text.html.django entity.other.django.delimiter.tag"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "DJANGO Variable Delimiter",
+      "scope": [
+        "text.html.django meta.scope.django.variable entity.other.django.delimiter.variable"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff07a2"
+      }
+    }, {
+      "name": "DJANGO Variable Other",
+      "scope": [
+        "text.html.django meta.scope.django.tag variable.other.django"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#2bb71d"
+      }
+    },
     // ----------------------------------------------------------------------------------- REGEX //
     {
       "name": "Regular Expressions",
       "scope": [
         "string.regexp keyword.other",
-        "text.html.php string.regexp.double-quoted.php punctuation.definition.string.end.php"
+        "text.html.php string.regexp.double-quoted.php punctuation.definition.string.end.php",
+        "text.html.php string.regexp.double-quoted.php punctuation.definition.string.begin.php",
+        "text.html.php string.regexp.single-quoted.php punctuation.definition.string.end.php",
+        "text.html.php string.regexp.single-quoted.php punctuation.definition.string.begin.php",
       ],
       "settings": {
         "foreground": "#ff0000"
@@ -1326,7 +1623,6 @@
         "foreground": "#EEFFFF"
       }
     },
-    // ----------------------------------------------------------------------------------- //
     {
       "name": "Inserted",
       "scope": [
@@ -1354,15 +1650,18 @@
         "foreground": "#C792EA"
       }
     },
+    // ----------------------------------------------------------------------------------- SHELL //
     {
-      "name": "Escape Characters",
+      "name": "SHELL Keyword Control",
       "scope": [
-        "constant.character.escape"
+        "source.shell keyword.control"
       ],
       "settings": {
-        "foreground": "#ffffaa"
+        "fontStyle": "",
+        "foreground": "#0b93ff"
       }
     },
+    // ----------------------------------------------------------------------------------- //
     {
       "name": "URL",
       "scope": [
