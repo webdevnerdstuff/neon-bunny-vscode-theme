@@ -1000,11 +1000,11 @@
     {
       "name": "JS Keyword Operator Comparison",
       "scope": [
-        "source.js keyword.operator.comparison.js",
+        "keyword.operator.comparison.js",
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#48ffc2"
+        "foreground": "#2492FF"
       }
     },
     {
