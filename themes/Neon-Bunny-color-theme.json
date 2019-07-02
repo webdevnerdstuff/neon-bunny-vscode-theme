@@ -790,6 +790,7 @@
         "keyword.control.at-rule.charset.css",
         "keyword.control.at-rule.include.scss",
         "keyword.control.at-rule.extend.scss",
+        "keyword.control.at-rule.import.scss",
         "meta.at-rule.keyframes.header.css keyword.control.at-rule.keyframes.css",
         "meta.at-rule.keyframes.scss keyword.control.at-rule.keyframes.scss"
       ],
