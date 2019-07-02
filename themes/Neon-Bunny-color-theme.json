@@ -788,6 +788,9 @@
       "name": "CSS At rule",
       "scope": [
         "keyword.control.at-rule.charset.css",
+        "keyword.control.at-rule.include.scss",
+        "keyword.control.at-rule.extend.scss",
+        "keyword.control.at-rule.import.scss",
         "meta.at-rule.keyframes.header.css keyword.control.at-rule.keyframes.css",
         "meta.at-rule.keyframes.scss keyword.control.at-rule.keyframes.scss"
       ],
@@ -862,8 +865,7 @@
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
         "source.postcss support.type.property-name",
-        "source.postcss support.type.property-name",
-        "entity.name.tag.css"
+        "source.postcss support.type.property-name"
       ],
       "settings": {
         "fontStyle": "",
@@ -904,6 +906,16 @@
       "scope": [
         "source.css.scss meta.at-rule.keyframes.scss entity.other.attribute-name.scss",
         "source.css.scss meta.at-rule.keyframes.scss"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "CSS/SCSS Function Argument",
+      "scope": [
+        "source.css.scss entity.name.tag.css"
       ],
       "settings": {
         "fontStyle": "",
@@ -968,7 +980,19 @@
       "name": "JS Keyword Control",
       "scope": [
         "source.js keyword.control",
-        "source.js keyword.operator.expression.typeof.js",
+        "keyword.operator.expression.typeof.js",
+        "keyword.operator.logical.js",
+        "keyword.operator.ternary.js"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#2492FF"
+      }
+    },
+    {
+      "name": "JS Storage",
+      "scope": [
+        "storage.type.function.arrow.js",
       ],
       "settings": {
         "fontStyle": "",
@@ -978,11 +1002,11 @@
     {
       "name": "JS Keyword Operator Comparison",
       "scope": [
-        "source.js keyword.operator.comparison.js",
+        "keyword.operator.comparison.js",
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#48ffc2"
+        "foreground": "#2492FF"
       }
     },
     {
@@ -1068,6 +1092,26 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FF5370"
+      }
+    },
+    {
+      "name": "JS Keyword Other",
+      "scope": [
+        "keyword.other.debugger.js"
+      ],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "JS Support Class",
+      "scope": [
+        "support.class.console.js"
+      ],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#ff0000"
       }
     },
     // ----------------------------------------------------------------------------------- JSON //
