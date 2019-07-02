@@ -1368,7 +1368,9 @@
         "source.python punctuation.definition.arguments.begin.python",
         "source.python punctuation.definition.arguments.end.python",
         "source.python punctuation.definition.dictionary.begin.python",
-        "source.python punctuation.definition.dictionary.end.python"
+        "source.python punctuation.definition.dictionary.end.python",
+        "sourece.pyhon punctuation.definition.list.begin.python",
+        "sourece.pyhon punctuation.definition.list.end.python"
       ],
       "settings": {
         "fontStyle": "",
