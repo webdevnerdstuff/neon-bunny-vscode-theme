@@ -981,7 +981,8 @@
       "scope": [
         "source.js keyword.control",
         "keyword.operator.expression.typeof.js",
-        "keyword.operator.logical.js"
+        "keyword.operator.logical.js",
+        "keyword.operator.ternary.js"
       ],
       "settings": {
         "fontStyle": "",
