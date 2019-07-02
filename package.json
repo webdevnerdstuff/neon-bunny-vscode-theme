@@ -33,7 +33,7 @@
     "themes": [{
       "label": "Neon Bunny Theme",
       "uiTheme": "vs-dark",
-      "path": "./themes/Neon Bunny-color-theme.json"
+      "path": "./themes/Neon-Bunny-color-theme.json"
     }]
   },
   "icon": "images/icon.png",
