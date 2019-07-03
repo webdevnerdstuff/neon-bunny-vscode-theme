@@ -791,6 +791,8 @@
         "keyword.control.at-rule.include.scss",
         "keyword.control.at-rule.extend.scss",
         "keyword.control.at-rule.import.scss",
+        "keyword.control.at-rule.media.scss"
+        "keyword.control.at-rule.media.css"
         "meta.at-rule.keyframes.header.css keyword.control.at-rule.keyframes.css",
         "meta.at-rule.keyframes.scss keyword.control.at-rule.keyframes.scss"
       ],
