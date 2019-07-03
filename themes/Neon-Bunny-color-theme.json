@@ -785,16 +785,45 @@
       }
     },
     {
-      "name": "CSS At rule",
+      "name": "CSS Keyword Control At rule",
       "scope": [
+        "keyword.control.at-rule.at-root.scss",
         "keyword.control.at-rule.charset.css",
-        "keyword.control.at-rule.include.scss",
+        "keyword.control.at-rule.charset.css punctuation.definition",
         "keyword.control.at-rule.extend.scss",
+        "keyword.control.at-rule.function.scss",
         "keyword.control.at-rule.import.scss",
-        "keyword.control.at-rule.media.scss"
-        "keyword.control.at-rule.media.css"
+        "keyword.control.at-rule.include.scss",
+        "keyword.control.at-rule.media.css",
+        "keyword.control.at-rule.media.scss",
+        "keyword.control.at-rule.mixin.scss",
+        "keyword.control.content.scss",
+        "keyword.control.each.scss",
+        "keyword.control.operator",
+        "keyword.control.return.scss",
         "meta.at-rule.keyframes.header.css keyword.control.at-rule.keyframes.css",
         "meta.at-rule.keyframes.scss keyword.control.at-rule.keyframes.scss"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#0b93ff"
+      }
+    },
+    {
+      "name": "CSS Keyword Control Warn",
+      "scope": [
+        "keyword.control.warn.scss"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "CSS Keyword Operator",
+      "scope": [
+        "keyword.operator.logical.scss",
+        "keyword.operator.css"
       ],
       "settings": {
         "fontStyle": "",
@@ -981,9 +1010,22 @@
     {
       "name": "JS Keyword Control",
       "scope": [
+        "source.js keyword.control"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#2492FF"
+      }
+    },
+    {
+      "name": "JS Keyword Operator",
+      "scope": [
         "source.js keyword.control",
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.comparison.js",
         "keyword.operator.expression.typeof.js",
         "keyword.operator.logical.js",
+        "keyword.operator.relational.js",
         "keyword.operator.ternary.js"
       ],
       "settings": {
@@ -992,44 +1034,25 @@
       }
     },
     {
-      "name": "JS Storage",
+      "name": "JS Keyword Operator Assignment",
       "scope": [
-        "storage.type.function.arrow.js",
-      ],
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#2492FF"
-      }
-    },
-    {
-      "name": "JS Keyword Operator Comparison",
-      "scope": [
-        "keyword.operator.comparison.js",
-      ],
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#2492FF"
-      }
-    },
-    {
-      "name": "JS Keyword Operator Arithmetic",
-      "scope": [
-        "source.js keyword.operator.arithmetic.js",
-      ],
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#2492FF"
-      }
-    },
-    {
-      "name": "JS Keyword Operator Assignment, Keyword Operator Assignment Compound",
-      "scope": [
-        "source.js keyword.operator.assignment.js",
-        "source.js keyword.operator.assignment.compound.js",
+        "keyword.operator.assignment.js",
+        "keyword.operator.assignment.compound.js",
       ],
       "settings": {
         "fontStyle": "",
         "foreground": "#ff6106"
+      }
+    },
+    {
+      "name": "JS Storage Type",
+      "scope": [
+        "storage.type.function.arrow.js",
+        "storage.type.js"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#2492FF"
       }
     },
     {
