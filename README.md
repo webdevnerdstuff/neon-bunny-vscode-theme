@@ -1,6 +1,5 @@
 # Neon Bunny
 
-![Neon Bunny](https://raw.githubusercontent.com/webdevnerdstuff/neon-bunny-vscode-theme/dev/images/icon.png)
 ![Neon Bunny](images/icon.png)
 
 
