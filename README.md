@@ -51,7 +51,7 @@ Neon Bunny
 Neon Bunny Carrot
 ![JavaScript Carrot](images/screenshots/php-carrot.png)
 
-[More Screenshots...](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme/tree/master/images/screenshots)
+[More Screenshots...](images/screenshots)
 
 ## Change Log
 
