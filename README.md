@@ -34,6 +34,7 @@ The Neon Bunny theme, is the only bunny theme for VS Code [theme](https://market
 
 Neon Bunny
 ![JavaScript](images/screenshots/javascript.png)
+
 Neon Bunny Carrot
 ![JavaScript Carrot](images/screenshots/javascript-carrot.png)
 
@@ -41,6 +42,7 @@ Neon Bunny Carrot
 
 Neon Bunny
 ![JavaScript](images/screenshots/vue.png)
+
 Neon Bunny Carrot
 ![JavaScript Carrot](images/screenshots/vue-carrot.png)
 
@@ -48,6 +50,7 @@ Neon Bunny Carrot
 
 Neon Bunny
 ![JavaScript](images/screenshots/php.png)
+
 Neon Bunny Carrot
 ![JavaScript Carrot](images/screenshots/php-carrot.png)
 
