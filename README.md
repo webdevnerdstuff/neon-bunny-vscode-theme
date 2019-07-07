@@ -30,28 +30,28 @@ The Neon Bunny theme, is the only bunny theme for VS Code [theme](https://market
 
 ## Screenshots
 
-##### JavaScript
+#### JavaScript
 
 Neon Bunny
 ![JavaScript](images/screenshots/javascript.png)
 Neon Bunny Carrot
 ![JavaScript Carrot](images/screenshots/javascript-carrot.png)
 
-##### VUE
+#### VUE
 
 Neon Bunny
 ![JavaScript](images/screenshots/vue.png)
 Neon Bunny Carrot
 ![JavaScript Carrot](images/screenshots/vue-carrot.png)
 
-##### PHP
+#### PHP
 
 Neon Bunny
 ![JavaScript](images/screenshots/php.png)
 Neon Bunny Carrot
 ![JavaScript Carrot](images/screenshots/php-carrot.png)
 
-[More Screenshots](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme/tree/master/images/screenshots)
+[More Screenshots...](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme/tree/master/images/screenshots)
 
 ## Change Log
 
