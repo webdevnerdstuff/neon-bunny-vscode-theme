@@ -9,7 +9,7 @@ The Neon Bunny theme, is the only bunny theme for VS Code [theme](https://market
 [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/webdevnerdstuff.neon-bunny.svg)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/webdevnerdstuff.neon-bunny.svg)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
 
-[![Visual Studio Marketplace](images/marketplace.png)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
+[![Visual Studio Marketplace](images/screenshots/marketplace.png)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
 
 [GitHub repository](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme)
 
