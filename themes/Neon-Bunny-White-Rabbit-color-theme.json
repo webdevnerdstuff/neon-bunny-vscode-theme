@@ -2,67 +2,69 @@
   "name": "Neon Bunny - White Rabbit",
   "type": "dark",
   "colors": {
-    "foreground": "#666666",
-
-    "editor.selectionBackground": "#dddddd",
-    "editor.selectionForeground": "#ffffff",
-    "editor.inactiveSelectionBackground": "#dddddd",
-    "editor.selectionHighlightBackground": "#eeeeee",
-    "editor.findMatchHighlightBackground": "#eeeeee",
+    "activityBar.activeBackground": "#ffffff",
+    "activityBar.activeBorder": "#c3071a",
+    "activityBar.background": "#eeeeee",
+    "activityBar.border": "#666666",
+    "activityBar.foreground": "#666666",
+    "activityBarBadge.background": "#018522",
+    "button.background": "#018522",
+    "button.hoverBackground": "#01a72b",
+    "editor.background": "#ffffff",
     "editor.findMatchBackground": "#cccccc",
     "editor.findMatchBorder": "#000000",
-
+    "editor.findMatchHighlightBackground": "#eeeeee",
+    "editor.foreground": "#666666",
+    "editor.inactiveSelectionBackground": "#dddddd",
+    "editor.lineHighlightBorder": "#dddddd",
+    "editor.selectionBackground": "#dddddd",
+    "editor.selectionForeground": "#ffffff",
+    "editor.selectionHighlightBackground": "#eeeeee",
+    "editor.wordHighlightBackground": "#cccccc",
+    "editor.wordHighlightStrongBackground": "#cccccc",
+    "editorGroupHeader.tabsBackground": "#eeeeee",
+    "editorIndentGuide.activeBackground": "#555555",
+    "editorIndentGuide.background": "#eeeeee",
+    "editorWidget.background": "#ffffff",
+    "editorWidget.foreground": "#666666",
+    "foreground": "#666666",
+    "gitDecoration.addedResourceForeground": "#018522",
+    "gitDecoration.conflictingResourceForeground": "#ff0000",
+    "gitDecoration.deletedResourceForeground": "#ff0000",
+    "gitDecoration.modifiedResourceForeground": "#c3071a",
+    "gitDecoration.submoduleResourceForeground": "#ff0000",
+    "gitDecoration.untrackedResourceForeground": "#018522",
+    "input.background": "#ffffff",
+    "input.border": "#018522",
+    "list.activeSelectionBackground": "#cccccc",
+    "list.activeSelectionForeground": "#666666",
+    "list.focusBackground": "#666666",
+    "list.focusForeground": "#ffffff",
+    "list.hoverBackground": "#cccccc",
+    "list.inactiveSelectionBackground": "#eeeeee",
+    "panel.background": "#ffffff",
+    "panel.border": "#666666",
+    "panelTitle.activeForeground": "#666666",
     "settings.checkboxBackground": "#ffffff",
     "settings.checkboxForeground": "#666666",
     "settings.dropdownBackground": "#ffffff",
     "settings.dropdownForeground": "#666666",
-    "settings.textInputForeground": "#666666",
     "settings.headerForeground": "#222222",
-    "list.focusBackground": "#666666",
-    "list.focusForeground": "#ffffff",
-    "button.background": "#018522",
-    "button.hoverBackground": "#01a72b",
-
-
-    "activityBar.background": "#eeeeee",
-    "activityBar.foreground": "#666666",
-    "activityBar.activeBorder": "#c3071a",
-    "activityBar.activeBackground": "#ffffff",
-    "activityBar.border": "#666666",
-
-    "input.background": "#ffffff",
-    "input.border": "#018522",
-
-    "editor.background": "#ffffff",
-    "editor.foreground": "#666666",
-    "editor.lineHighlightBorder": "#dddddd",
-
-    "editorIndentGuide.activeBackground": "#555555",
-    "editorIndentGuide.background": "#eeeeee",
-
+    "settings.textInputForeground": "#666666",
     "sideBar.background": "#fcfcfc",
-    "sideBar.foreground": "#666666",
     "sideBar.border": "#666666",
+    "sideBar.foreground": "#666666",
     "sideBarSectionHeader.background": "#cccccc",
-
-    "list.hoverBackground": "#ffffff",
-    "list.activeSelectionBackground": "#ffffff",
-    "list.activeSelectionForeground": "#666666",
-    "list.inactiveSelectionBackground": "#eeeeee",
-
     "sideBarTitle.foreground": "#666666",
-
-    "activityBarBadge.background": "#c3071a",
     "statusBar.background": "#b5fdc7",
     "statusBar.foreground": "#018522",
-
-    "editorGroupHeader.tabsBackground": "#eeeeee",
     "tab.activeBackground": "#aedfff",
     "tab.activeForeground": "#666666",
     "tab.border": "#eeeeee",
     "tab.hoverBackground": "#aedfff",
     "tab.inactiveBackground": "#e4f4ff",
-    "tab.inactiveForeground": "#666666"
+    "tab.inactiveForeground": "#666666",
+    "terminal.background": "#000000"
   },
   "tokenColors": [
     // ----------------------------------------------------------------------------------- GENERAL //
@@ -497,7 +499,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#00eeff"
+        "foreground": "#018522"
       }
     },
     {
@@ -517,7 +519,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#0aff04"
+        "foreground": "#018522"
       }
     },
     {
@@ -543,7 +545,7 @@
         "source.python punctuation.definition.list.end.python"
       ],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#666666"
       }
     },
