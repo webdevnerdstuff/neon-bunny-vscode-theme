@@ -35,6 +35,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Neon Bunny Theme - White Rabbit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Neon-Bunny-White-Rabbit-color-theme.json"
+      },
+      {
         "label": "Neon Bunny Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Neon-Bunny-color-theme.json"
