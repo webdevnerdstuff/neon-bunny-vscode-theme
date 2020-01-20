@@ -16,7 +16,8 @@ The Neon Bunny theme, is the only bunny [theme](https://marketplace.visualstudio
 ## Packaged Themes Included
 
 * Neon Bunny
-* Neon Bunny Carrot
+* Neon Bunny - Carrot
+* Neon Bunny - White Rabbit
 
 #### Language Support
 
