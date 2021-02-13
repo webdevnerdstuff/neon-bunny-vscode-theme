@@ -4,10 +4,16 @@
   "description": "Neon Bunny is a dark (and light) theme for Visual Studio Code even a bunny could love.",
   "version": "0.1.6",
   "publisher": "webdevnerdstuff",
+  "author": {
+    "name": "WebDevNerdStuff",
+    "url": "https://webdevnerdstuff.com"
+  },
   "license": "SEE LICENSE IN LICENSE.md",
   "keywords": [
     "Neon Bunny Theme",
     "Neon Bunny",
+    "Neon Bunny Carrot",
+    "Neon Bunny White Rabbit",
     "Neon",
     "Bunny",
     "Bunnies",
@@ -28,7 +34,7 @@
     "url": "https://github.com/webdevnerdstuff/neon-bunny-vscode-theme/issues"
   },
   "engines": {
-    "vscode": "^1.35.1"
+    "vscode": "^1.53.2"
   },
   "categories": [
     "Themes"
