@@ -1,6 +1,6 @@
 {
   "name": "Neon Bunny - White Rabbit",
-  "type": "dark",
+  "type": "light",
   "colors": {
     "activityBar.activeBackground": "#ffffff",
     "activityBar.activeBorder": "#c3071a",
