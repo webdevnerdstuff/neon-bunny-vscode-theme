@@ -16,3 +16,5 @@ npm-debug.log*
 
 # Misc #
 .history/
+
+personal-access-token.txt
