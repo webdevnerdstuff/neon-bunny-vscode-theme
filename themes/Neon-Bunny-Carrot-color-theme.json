@@ -2,11 +2,14 @@
   "name": "Neon Bunny - Carrot",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#111111",
     "activityBar.activeBorder": "#ff9900",
+    "activityBar.background": "#111111",
     "activityBarBadge.background": "#147dff",
     "editor.background": "#000000",
     "editor.foreground": "#ffffff",
+    "editor.selectionBackground": "#444",
+    "editor.selectionHighlightBackground": "#ffffff15",
+    "editor.wordHighlightStrongBackground": "#ffffff15",
     "editorGroupHeader.tabsBackground": "#222222",
     "editorIndentGuide.activeBackground": "#555555",
     "editorIndentGuide.background": "#2d2d2d",
@@ -17,6 +20,7 @@
     "tab.activeBackground": "#555555",
     "tab.hoverBackground": "#555555",
     "tab.inactiveBackground": "#333333"
+
   },
   "tokenColors": [
     // ----------------------------------------------------------------------------------- GENERAL //
