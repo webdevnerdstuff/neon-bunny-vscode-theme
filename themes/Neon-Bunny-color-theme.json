@@ -2,21 +2,25 @@
   "name": "Neon Bunny",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#111111",
     "activityBar.activeBorder": "#00ff00",
+    "activityBar.background": "#111111",
     "activityBarBadge.background": "#007acc",
     "editor.background": "#000000",
     "editor.foreground": "#ffffff",
+    "editor.selectionBackground": "#444",
+    "editor.selectionHighlightBackground": "#ffffff15",
+    "editor.wordHighlightStrongBackground": "#ffffff15",
     "editorGroupHeader.tabsBackground": "#222222",
     "editorIndentGuide.activeBackground": "#555555",
-    "editorIndentGuide.background": "#2D2D2D",
+    "editorIndentGuide.background": "#2d2d2d",
+    "editorLineNumber.activeForeground": "#00ff00",
     "sideBar.background": "#222222",
     "sideBarTitle.foreground": "#bbbbbb",
     "statusBar.background": "#21252b",
     "statusBar.foreground": "#9da5b4",
     "tab.activeBackground": "#555555",
     "tab.hoverBackground": "#555555",
-    "tab.inactiveBackground": "#333333"
+    "tab.inactiveBackground": "#333333",
   },
   "tokenColors": [
     // ------------------------------------------------------ GENERAL //

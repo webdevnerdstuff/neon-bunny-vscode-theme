@@ -2,6 +2,10 @@
 
 All notable changes to the "neon-bunny" extension will be documented in this file.
 
+## 0.1.7
+
+- Made some adjustments to selection backgrounds (neon bunny & carrot themes)
+
 ## 0.1.6
 
 - Added White Rabbit Minimalist Light Theme (light theme)
