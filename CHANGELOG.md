@@ -2,6 +2,10 @@
 
 All notable changes to the "neon-bunny" extension will be documented in this file.
 
+## 0.1.8
+
+- Removing extension dependency
+
 ## 0.1.7
 
 - Made some adjustments to selection backgrounds (neon bunny & carrot themes)
