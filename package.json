@@ -62,8 +62,5 @@
   "galleryBanner": {
     "color": "#000000",
     "theme": "dark"
-  },
-  "extensionDependencies": [
-    "batisteo.vscode-django"
-  ]
+  }
 }
