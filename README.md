@@ -1,19 +1,36 @@
-# Neon Bunny
+<p align="center">
+  <img alt="Neon Bunny" width="256" src="https://github.com/webdevnerdstuff/neon-bunny-vscode-theme/raw/master/images/icon.png">
+</p>
 
-![Neon Bunny](images/icon.png)
+<p>
+  <h1 align="center">Neon Bunny</h1>
+</p>
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/WebDevNerdStuff.neon-bunny?color=magenta&label=Version" alt="Version">
+  </a>
+  &nbsp;
+  <a href="https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/WebDevNerdStuff.neon-bunny?color=%230078d7&logo=visualstudio&label=VisualStudio%20Marketplace%20Installs" alt="Visual Studio Marketplace Installs">
+  </a>
+</p>
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny">
+    <img src="https://img.shields.io/visual-studio-marketplace/stars/WebDevNerdStuff.neon-bunny?color=%232492ff&label=Rating" alt="Visual Studio Marketplace Rating">
+  </a>
+  &nbsp;
+  <a href="https://github.com/webdevnerdstuff/neon-bunny-vscode-theme">
+    <img src="https://img.shields.io/badge/GitHub-WebDevNerdStuff-brightgreen.svg?logo=github" alt="@WebDevNerdStuff">
+  </a>
+</p>
+
+
+## Description
 
 The Neon Bunny theme, is the only bunny [theme](https://marketplace.visualstudio.com/search?term=bunny&target=VSCode&category=Themes&sortBy=Relevance) for VS Code! What does that have to do with bunnies? Only the little fluffy critters know for sure.
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/webdevnerdstuff.neon-bunny.svg)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/webdevnerdstuff.neon-bunny.svg)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/webdevnerdstuff.neon-bunny.svg)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/webdevnerdstuff.neon-bunny.svg)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
-
-[![Visual Studio Marketplace](images/screenshots/marketplace.png)](https://marketplace.visualstudio.com/items?itemName=WebDevNerdStuff.neon-bunny)
-
-[GitHub repository](https://github.com/webdevnerdstuff/neon-bunny-vscode-theme)
-
-## Packaged Themes Included
+## Themes Included
 
 * Neon Bunny
 * Neon Bunny - Carrot
