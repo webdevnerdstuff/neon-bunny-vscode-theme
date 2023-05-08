@@ -55,12 +55,12 @@
       {
         "label": "Neon Bunny - Carrot",
         "uiTheme": "vs-dark",
-        "path": "./themes/Neon-Bunny-Carrot-color-theme.json"
+        "path": "./themes/neon-bunny-carrot-theme.json"
       },
       {
         "label": "Neon Bunny - White Rabbit",
         "uiTheme": "vs",
-        "path": "./themes/Neon-Bunny-White-Rabbit-color-theme.json"
+        "path": "./themes/neon-bunny-white-rabbit-theme.json"
       }
     ]
   },
