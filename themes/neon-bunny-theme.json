@@ -1437,7 +1437,8 @@
     {
       "name": "VUE - Meta Import Punctuation Definition Block",
       "scope": [
-        "source.vue meta.import punctuation.definition.block"
+        "source.vue meta.import punctuation.definition.block",
+        "source.ts meta.import punctuation.definition.block"
       ],
       "settings": {
         "foreground": "#f50aff"
