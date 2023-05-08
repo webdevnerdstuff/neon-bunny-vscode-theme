@@ -20,10 +20,8 @@
     "tab.activeBackground": "#555555",
     "tab.hoverBackground": "#555555",
     "tab.inactiveBackground": "#333333"
-
   },
   "tokenColors": [
-    // ----------------------------------------------------------------------------------- GENERAL //
     {
       "name": "Comment",
       "scope": [
@@ -286,7 +284,6 @@
         "foreground": "#ff1190"
       }
     },
-
     {
       "name": "Class, Support",
       "scope": [
@@ -301,7 +298,6 @@
         "foreground": "#ffff00"
       }
     },
-    // ----------------------------------------------------------------------------------- CSS //
     {
       "name": "Entity Other Attribute Name Class",
       "scope": [
@@ -355,7 +351,6 @@
         "foreground": "#ff1190"
       }
     },
-    // ----------------------------------------------------------------------------------- VUE //
     {
       "name": "VUE Punctuation Definition Generic",
       "scope": [
@@ -376,7 +371,6 @@
         "foreground": "#ff1190"
       }
     },
-    // ----------------------------------------------------------------------------------- HTML //
     {
       "name": "HTML Attribute Name",
       "scope": [
@@ -426,7 +420,6 @@
         "foreground": "#ff1190"
       }
     },
-    // ----------------------------------------------------------------------------------- PYTHON //
     {
       "name": "PYTHON Source",
       "scope": [
@@ -505,7 +498,6 @@
         "foreground": "#ffffff"
       }
     },
-    // ----------------------------------------------------------------------------------- JSON //
     {
       "name": "JSON String Quoted Double JSON Comments",
       "scope": [
