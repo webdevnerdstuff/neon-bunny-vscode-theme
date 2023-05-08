@@ -12,6 +12,7 @@
   "keywords": [
     "Neon Bunny Theme",
     "Neon Bunny",
+    "Neon Bunny Original",
     "Neon Bunny Carrot",
     "Neon Bunny White Rabbit",
     "Neon",
@@ -44,7 +45,12 @@
       {
         "label": "Neon Bunny",
         "uiTheme": "vs-dark",
-        "path": "./themes/Neon-Bunny-color-theme.json"
+        "path": "./themes/neon-bunny-theme.json"
+      },
+      {
+        "label": "Neon Bunny - Original",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-bunny-original-theme.json"
       },
       {
         "label": "Neon Bunny - Carrot",
