@@ -20,3 +20,4 @@ npm-debug.log*
 personal-access-token.txt
 themes/neon-bunny-theme.bk.json
 code-samples/colors.scss
+.vscode/settings.json
