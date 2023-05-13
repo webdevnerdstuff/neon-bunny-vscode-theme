@@ -1457,17 +1457,19 @@
     {
       "name": "VUE - Meta Object Literal Key - Meta Brace Square",
       "scope": [
-        "source.vue meta.object-literal.key meta.brace.square"
+        "source.vue meta.object-literal.key meta.brace.square",
+        "source.ts meta.object-literal.key meta.brace.square"
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#fff"
+        "foreground": "#ffffff"
       }
     },
     {
       "name": "VUE - Meta Object Literal Key - Meta Template Expression - Punctuation Definition",
       "scope": [
-        "source.vue meta.object-literal.key meta.template.expression punctuation.definition"
+        "source.vue meta.object-literal.key meta.template.expression punctuation.definition",
+        "source.ts meta.object-literal.key meta.template.expression punctuation.definition"
       ],
       "settings": {
         "foreground": "#ff25d9"
