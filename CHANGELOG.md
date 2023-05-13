@@ -7,6 +7,7 @@ All notable changes to the `neon-bunny` theme will be documented in this file.
 * Adding in typescript syntax highlighting
 * Added more shell and ini syntax highlighting
 * Updated some Vue syntax highlighting
+* Original theme is now called "Neon Bunny Original"
 
 ## 0.1.8
 2021-09-18

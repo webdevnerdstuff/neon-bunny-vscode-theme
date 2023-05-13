@@ -28,23 +28,25 @@
 
 ## Description
 
-The Neon Bunny theme, is the only bunny [theme](https://marketplace.visualstudio.com/search?term=bunny&target=VSCode&category=Themes&sortBy=Relevance) for VS Code! What does that have to do with bunnies? Only the little fluffy critters know for sure.
+Neon Bunny is a dark (and light) [theme](https://marketplace.visualstudio.com/search?term=bunny&target=VSCode&category=Themes&sortBy=Relevance) for Visual Studio Code even a bunny would love. What does that have to do with bunnies? Only the little fluffy critters know for sure.
 
 ## Themes Included
 
 * Neon Bunny
+* Neon Bunny - Original
 * Neon Bunny - Carrot
 * Neon Bunny - White Rabbit
 
 #### Language Support
 
 * JavaScript
+* TypeScript
 * Vue
 * PHP
-* Python
-* Django
 * HTML
 * CSS/SCSS
+* Python
+* Django
 
 ## Screenshots
 
