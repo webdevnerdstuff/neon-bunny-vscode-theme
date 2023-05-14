@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Neon Bunny" width="256" src="https://github.com/webdevnerdstuff/neon-bunny-vscode-theme/raw/master/images/icon.png">
+  <img alt="Neon Bunny" width="256" src="https://github.com/webdevnerdstuff/neon-bunny-vscode-theme/raw/main/images/icon.png">
 </p>
 
 <p>
