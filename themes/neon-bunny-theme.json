@@ -1438,7 +1438,8 @@
       "name": "VUE - Meta Import Punctuation Definition Block",
       "scope": [
         "source.vue meta.import punctuation.definition.block",
-        "source.ts meta.import punctuation.definition.block"
+        "source.ts meta.import punctuation.definition.block",
+        "source.tsx meta.import punctuation.definition.block"
       ],
       "settings": {
         "foreground": "#f50aff"
@@ -1547,7 +1548,8 @@
     {
       "name": "TypeScript - String Quoted Double",
       "scope": [
-        "source.ts string.quoted.double.ts"
+        "source.ts string.quoted.double.ts",
+        "source.tsx string.quoted.double.tsx"
       ],
       "settings": {
         "foreground": "#ffb46a"
@@ -1556,7 +1558,8 @@
     {
       "name": "TypeScript - Entity Name Type Instance JSDoc",
       "scope": [
-        "source.ts entity.name.type.instance.jsdoc"
+        "source.ts entity.name.type.instance.jsdoc",
+        "source.tsx entity.name.type.instance.jsdoc"
       ],
       "settings": {
         "foreground": "#8f0b51"
@@ -1574,7 +1577,8 @@
     {
       "name": "TypeScript - Keyword Operator Expression Keyof",
       "scope": [
-        "source.ts keyword.operator.expression.keyof.ts"
+        "source.ts keyword.operator.expression.keyof.ts",
+        "source.tsx keyword.operator.expression.keyof.tsx"
       ],
       "settings": {
         "foreground": "#276aff"
@@ -1587,7 +1591,12 @@
         "source.ts entity.name.type.interface.ts",
         "source.ts entity.name.type.ts",
         "source.ts meta.interface.ts entity.other.inherited-class.ts",
-        "source.ts meta.class.ts entity.name.type.class.ts"
+        "source.tsx meta.class.ts entity.name.type.class.ts",
+        "source.tsx entity.name.type.alias.tsx",
+        "source.tsx entity.name.type.interface.tsx",
+        "source.tsx entity.name.type.tsx",
+        "source.tsx meta.interface.tsx entity.other.inherited-class.tsx",
+        "source.tsx meta.class.tsx entity.name.type.class.tsx"
       ],
       "settings": {
         "foreground": "#f50aff"
@@ -1596,7 +1605,8 @@
     {
       "name": "TypeScript - Meta Interface - Entity Other Inherited Class",
       "scope": [
-        "source.ts meta.interface.ts entity.other.inherited-class.ts"
+        "source.ts meta.interface.ts entity.other.inherited-class.ts",
+        "source.tsx meta.interface.tsx entity.other.inherited-class.tsx"
       ],
       "settings": {
         "fontStyle": "italic"
@@ -1605,7 +1615,8 @@
     {
       "name": "TypeScript - Meta Type Declaration - String Quoted Double",
       "scope": [
-        "source.ts meta.type.declaration string.quoted.double.ts"
+        "source.ts meta.type.declaration string.quoted.double.ts",
+        "source.tsx meta.type.declaration string.quoted.double.tsx"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -1617,6 +1628,8 @@
       "scope": [
         "source.ts support.type.builtin.ts",
         "source.ts support.type.primitive.ts",
+        "source.tsx support.type.builtin.tsx",
+        "source.tsx support.type.primitive.tsx",
         "source.vue source.ts meta.var.expr.ts support.type.builtin.ts",
         "source.vue source.ts meta.var.expr.ts support.type.primitive.ts"
       ],
@@ -1628,10 +1641,30 @@
       "name": "TypeScript - Punctuation Definition Type Parameters Begin / End",
       "scope": [
         "source.ts punctuation.definition.typeparameters.begin.ts",
-        "source.ts punctuation.definition.typeparameters.end.ts"
+        "source.ts punctuation.definition.typeparameters.end.ts",
+        "source.tsx punctuation.definition.typeparameters.begin.tsx",
+        "source.tsx punctuation.definition.typeparameters.end.tsx"
       ],
       "settings": {
         "foreground": "#2492ff"
+      }
+    },
+    {
+      "name": "TSX - Support Class Component",
+      "scope": [
+        "source.tsx support.class.component.tsx"
+      ],
+      "settings": {
+        "foreground": "#2492ff"
+      }
+    },
+    {
+      "name": "TSX - Entity Other Attribute Name",
+      "scope": [
+        "source.tsx entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#00D205"
       }
     },
     {

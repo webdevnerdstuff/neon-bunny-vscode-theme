@@ -2,6 +2,10 @@
 
 All notable changes to the `neon-bunny` theme will be documented in this file.
 
+## v1.0.4
+2023-05-13
+* Adding in tsx syntax highlighting to match typescript syntax better
+
 ## v1.0.0
 2023-05-07
 * Adding in typescript syntax highlighting
