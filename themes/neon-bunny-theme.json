@@ -1,5 +1,6 @@
 {
   "name": "neon-bunny-theme",
+  "type": "dark",
   "colors": {
     "activityBar.activeBorder": "#00ff00",
     "activityBar.background": "#111111",
@@ -14,7 +15,7 @@
     "editorIndentGuide.background": "#2d2d2d",
     "editorLineNumber.activeForeground": "#00ff00",
     "sideBar.background": "#222222",
-    "sideBarTitle.foreground": "#111111",
+    "sideBarTitle.foreground": "#bbbbbb",
     "statusBar.background": "#21252b",
     "statusBar.foreground": "#9da5b4",
     "tab.activeBackground": "#555555",
@@ -1314,7 +1315,8 @@
     {
       "name": "JS - Keyword Other Debugger",
       "scope": [
-        "keyword.other.debugger.js"
+        "keyword.other.debugger.js",
+        "keyword.other.debugger.ts"
       ],
       "settings": {
         "fontStyle": "underline",
