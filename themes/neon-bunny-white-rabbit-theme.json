@@ -70,7 +70,6 @@
     "terminal.background": "#000000"
   },
   "tokenColors": [
-    // ----------------------------------------------------------------------------------- GENERAL //
     {
       "name": "Comment",
       "scope": [
@@ -80,7 +79,7 @@
       ],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#bbbbbb",
+        "foreground": "#bbbbbb"
       }
     },
     {
@@ -123,7 +122,7 @@
         "punctuation.definition.tag",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.html"
       ],
       "settings": {
         "fontStyle": "",
@@ -136,7 +135,7 @@
         "punctuation.definition.tag",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.html"
       ],
       "settings": {
         "fontStyle": "",
@@ -217,7 +216,7 @@
     {
       "name": "Keyword",
       "scope": [
-        "keyword",
+        "keyword"
       ],
       "settings": {
         "fontStyle": "",
@@ -227,7 +226,7 @@
     {
       "name": "Keyword Operator",
       "scope": [
-        "keyword.operator",
+        "keyword.operator"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -237,7 +236,7 @@
     {
       "name": "Keyword Control",
       "scope": [
-        "keyword.control",
+        "keyword.control"
       ],
       "settings": {
         "fontStyle": "",
@@ -247,7 +246,7 @@
     {
       "name": "Storage",
       "scope": [
-        "storage",
+        "storage"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -328,13 +327,12 @@
       "name": "Constant Language Null / Undefined",
       "scope": [
         "constant.language.null",
-        "constant.language.undefined",
+        "constant.language.undefined"
       ],
       "settings": {
         "foreground": "#c3071a"
       }
     },
-
     {
       "name": "Class, Support",
       "scope": [
@@ -349,7 +347,6 @@
         "foreground": "#ad6800"
       }
     },
-    // ----------------------------------------------------------------------------------- CSS //
     {
       "name": "Entity Other Attribute Name Class",
       "scope": [
@@ -403,7 +400,6 @@
         "foreground": "#c3071a"
       }
     },
-    // ----------------------------------------------------------------------------------- VUE //
     {
       "name": "VUE Punctuation Definition Generic",
       "scope": [
@@ -424,7 +420,6 @@
         "foreground": "#c3071a"
       }
     },
-    // ----------------------------------------------------------------------------------- HTML //
     {
       "name": "HTML Attribute Name",
       "scope": [
@@ -474,7 +469,6 @@
         "foreground": "#c3071a"
       }
     },
-    // ----------------------------------------------------------------------------------- PYTHON //
     {
       "name": "PYTHON Source",
       "scope": [
@@ -519,7 +513,7 @@
     {
       "name": "PYTHON Meta Function Call",
       "scope": [
-        "source.python meta.structure.dictionary.python meta.structure.dictionary.value.python meta.function-call.python",
+        "source.python meta.structure.dictionary.python meta.structure.dictionary.value.python meta.function-call.python"
       ],
       "settings": {
         "fontStyle": "",
@@ -531,7 +525,7 @@
       "scope": [
         "source.python meta.structure.dictionary.value.python",
         "source.python meta.item-access.python",
-        "source.python meta.function-call.arguments.python",
+        "source.python meta.function-call.arguments.python"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -553,7 +547,6 @@
         "foreground": "#666666"
       }
     },
-    // ----------------------------------------------------------------------------------- JSON //
     {
       "name": "JSON String Quoted Double JSON Comments",
       "scope": [
@@ -631,7 +624,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#c3071a",
+        "foreground": "#c3071a"
       }
     },
     {

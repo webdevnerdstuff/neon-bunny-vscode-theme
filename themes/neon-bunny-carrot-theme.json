@@ -73,7 +73,7 @@
         "punctuation.definition.tag",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.html"
       ],
       "settings": {
         "fontStyle": "",
@@ -86,7 +86,7 @@
         "punctuation.definition.tag",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.html"
       ],
       "settings": {
         "fontStyle": "",
@@ -167,7 +167,7 @@
     {
       "name": "Keyword",
       "scope": [
-        "keyword",
+        "keyword"
       ],
       "settings": {
         "fontStyle": "",
@@ -177,7 +177,7 @@
     {
       "name": "Keyword Operator",
       "scope": [
-        "keyword.operator",
+        "keyword.operator"
       ],
       "settings": {
         "fontStyle": "",
@@ -187,7 +187,7 @@
     {
       "name": "Keyword Control",
       "scope": [
-        "keyword.control",
+        "keyword.control"
       ],
       "settings": {
         "fontStyle": "",
@@ -197,7 +197,7 @@
     {
       "name": "Storage",
       "scope": [
-        "storage",
+        "storage"
       ],
       "settings": {
         "fontStyle": "",
@@ -278,7 +278,7 @@
       "name": "Constant Language Null / Undefined",
       "scope": [
         "constant.language.null",
-        "constant.language.undefined",
+        "constant.language.undefined"
       ],
       "settings": {
         "foreground": "#ff1190"
@@ -464,7 +464,7 @@
     {
       "name": "PYTHON Meta Function Call",
       "scope": [
-        "source.python meta.structure.dictionary.python meta.structure.dictionary.value.python meta.function-call.python",
+        "source.python meta.structure.dictionary.python meta.structure.dictionary.value.python meta.function-call.python"
       ],
       "settings": {
         "fontStyle": "",
@@ -476,7 +476,7 @@
       "scope": [
         "source.python meta.structure.dictionary.value.python",
         "source.python meta.item-access.python",
-        "source.python meta.function-call.arguments.python",
+        "source.python meta.function-call.arguments.python"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -575,7 +575,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#dd00ff",
+        "foreground": "#dd00ff"
       }
     },
     {
